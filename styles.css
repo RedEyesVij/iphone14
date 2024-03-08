@@ -1,7 +1,45 @@
 body {
-    background-color: aquamarine;
+    background-color: rgb(163, 212, 211);
+}
+
+a {
+    direction: none;
+    color: inherit;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .header {
     background-color: #0a0a0a;
+    padding: 33px 0 32px;
+    color: #717171;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-items {
+    padding-right: 30px;
+}
+
+.menu-link {
+    color: #000;
+    color: #fff;
 }
